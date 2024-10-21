@@ -17,7 +17,7 @@ const App = () => {
   };
 
   const addSkill = () => {
-    if (text.length > 5) {
+    if (text.length > 0) {
       setTodos([...todos, text]);
       setText("");
     }
